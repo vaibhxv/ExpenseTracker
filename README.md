@@ -133,16 +133,10 @@ To run this project, you will need to add the following environment variables to
 `PORT`
 
 
-## 📸 Screenshots
-
-<p align="center">
-  <img src="./dashboard.png" alt="Dashboard" width="600">
-</p>
-
 ## 🛣️ Roadmap
 
-- [1] User authentication
-- [1] Expenses at a glance
+- [ ] User authentication
+- [ ] Expenses at a glance
 - [ ] Visual graphs and charts
 - [ ] Edit, Add, Delete expenses
 - [ ] Real time updates
