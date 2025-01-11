@@ -1,9 +1,7 @@
 # ExpenseTrackeroo 💰
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![Node.js](https://img.shields.io/badge/Node.js-v14+-green.svg)](https://nodejs.org/)
 [![React](https://img.shields.io/badge/React-18.x-blue.svg)](https://reactjs.org/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
 > A modern full-stack expense tracking application built with React and Node.js
 
