@@ -141,22 +141,11 @@ To run this project, you will need to add the following environment variables to
 
 ## 🛣️ Roadmap
 
-- [ ] User authentication
-- [ ] Expenses at a glance
+- [1] User authentication
+- [1] Expenses at a glance
 - [ ] Visual graphs and charts
 - [ ] Edit, Add, Delete expenses
 - [ ] Real time updates
 
 
-## 👥 Contributing
-
-Contributions are always welcome!
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/amazing`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing`)
-5. Open a Pull Request
-
-Please read `CONTRIBUTING.md` for details on our code of conduct.
 
