@@ -4,7 +4,9 @@
 [![React](https://img.shields.io/badge/React-18.x-blue.svg)](https://reactjs.org/)
 
 > A modern full-stack expense tracking application built with React and Node.js
+> <br>
 > Example Login ID - 1@1.com
+> <br>
 > Example Login Password - 123
 
 <p align="center">
