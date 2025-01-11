@@ -37,13 +37,13 @@ cd expensetrackeroo
 
 2️⃣ Install backend dependencies
 ```bash
-cd backend
+cd api
 npm install
 ```
 
 3️⃣ Install frontend dependencies
 ```bash
-cd frontend
+cd client
 npm install
 ```
 
@@ -56,13 +56,13 @@ cp .env.example .env
 5️⃣ Start the application
 ```bash
 # Start backend (from backend directory)
-npm run start
+npm start
 
 # Start frontend (from frontend directory)
-npm run start
+npm run dev
 ```
 
-Visit `http://localhost:3000` to view the application
+Visit `http://localhost:5173` to view the application
 
 ## 🛠️ Tech Stack
 
@@ -81,13 +81,13 @@ Visit `http://localhost:3000` to view the application
 #### Get all expenses
 
 ```http
-GET /api/expenses
+GET /expenses
 ```
 
 #### Add expense
 
 ```http
-POST /api/expenses
+POST /expenses
 ```
 
 | Parameter | Type     | Description                |
@@ -100,13 +100,13 @@ POST /api/expenses
 #### Update expense
 
 ```http
-PUT /api/expenses/${id}
+PUT /expenses/${id}
 ```
 
 #### Delete expense
 
 ```http
-DELETE /api/expenses/${id}
+DELETE /expenses/${id}
 ```
 
 ## 📊 Database Schema
@@ -132,17 +132,6 @@ To run this project, you will need to add the following environment variables to
 
 `PORT`
 
-## 🎯 Running Tests
-
-```bash
-# Run backend tests
-cd backend
-npm run test
-
-# Run frontend tests
-cd frontend
-npm run test
-```
 
 ## 📸 Screenshots
 
@@ -153,11 +142,11 @@ npm run test
 ## 🛣️ Roadmap
 
 - [ ] User authentication
-- [ ] Dark mode
-- [ ] Export to PDF/Excel
-- [ ] Mobile app
-- [ ] Budget alerts
-- [ ] Multiple currency support
+- [ ] Expenses at a glance
+- [ ] Visual graphs and charts
+- [ ] Edit, Add, Delete expenses
+- [ ] Real time updates
+
 
 ## 👥 Contributing
 
@@ -171,18 +160,3 @@ Contributions are always welcome!
 
 Please read `CONTRIBUTING.md` for details on our code of conduct.
 
-## 📄 License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-## 🙌 Acknowledgements
-
-- [Awesome README templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
-- [Chart.js](https://www.chartjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-
-## 📧 Contact
-
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - email@example.com
-
-Project Link: [https://github.com/yourusername/expensetrackeroo](https://github.com/yourusername/expensetrackeroo)
