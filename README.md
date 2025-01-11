@@ -33,8 +33,8 @@
 
 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/yourusername/expensetrackeroo.git
-cd expensetrackeroo
+git clone https://github.com/vaibhxv/expensetracker.git
+cd expensetracker
 ```
 
 2️⃣ Install backend dependencies
