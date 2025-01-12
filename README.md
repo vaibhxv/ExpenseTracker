@@ -70,13 +70,14 @@ Visit `http://localhost:5173` to view the application
 
 **Client:** 
 - React
+- ShadCN UI
 - Chart.js
 - Tailwind CSS
 
 **Server:** 
 - Node.js
 - Express
-- MongoDB/PostgreSQL
+- MongoDB
 
 ## 📝 API Reference
 
