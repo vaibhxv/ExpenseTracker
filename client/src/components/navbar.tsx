@@ -85,20 +85,13 @@ export const Navbar: React.FC<NavbarProps> = ({ token, setToken }) => {
       </div>
       
       ) : (
-        <div className='flex items-right space-x-4'>
-          <Button
-          onClick={() => navigate('/signup')}
-          className=""
-        >
-          Signup
-        </Button>
         <button
           onClick={() => navigate('/login')}
           className="text-orange-600 font-medium hover:text-orange-700"
         >
           Login →
         </button>
-        </div>
+        
       )}
     </nav>
   );
