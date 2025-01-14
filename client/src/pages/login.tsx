@@ -1,5 +1,6 @@
 import React, { useState, FormEvent } from 'react';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 interface LoginProps {
   setToken: (token: string) => void;
@@ -9,6 +10,8 @@ export const Login: React.FC<LoginProps> = ({ setToken }) => {
   const [email, setEmail] = useState<string>('');
   const [password, setPassword] = useState<string>('');
   const [error, setError] = useState<string>('');
+
+  const navigate = useNavigate();
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -31,9 +34,12 @@ export const Login: React.FC<LoginProps> = ({ setToken }) => {
           </h2>
           <p className="mt-2 text-center text-sm text-gray-600">
             Don't have an account?{' '}
-            <a href="/signup" className="font-medium text-blue-600 hover:text-blue-500">
-              Sign up
-            </a>
+            <button
+          onClick={() => navigate('/signup')}
+          className="text-orange-600 font-medium hover:text-orange-700"
+        >
+          Sign up
+        </button>
           </p>
         </div>
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
