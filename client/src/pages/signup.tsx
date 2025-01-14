@@ -30,9 +30,12 @@ export const Signup: React.FC = () => {
           </h2>
           <p className="mt-2 text-center text-sm text-gray-600">
             Already have an account?{' '}
-            <a href="/login" className="font-medium text-blue-600 hover:text-blue-500">
-              Sign in
-            </a>
+            <button
+          onClick={() => navigate('/login')}
+          className="text-orange-600 font-medium hover:text-orange-700"
+        >
+          Sign in
+        </button>
           </p>
         </div>
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
